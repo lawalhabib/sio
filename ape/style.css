@@ -1,0 +1,336 @@
+*{ 
+    Margin: 0; 
+    Padding: 0; 
+    box-sizing: border-box; 
+    font-family: ‘Poppins’, sans-serif; 
+    } 
+     
+    body { 
+    Background: white; 
+    } 
+    .header{ 
+   
+    top: 0; 
+    Left: 0; 
+    width: 100%; 
+    padding: 30px 8%; 
+    background: transparent;  
+    display: flex; 
+    justify-content: space-between;  
+    align-items: center; 
+    z-index: 100; 
+    } 
+    .logo{ 
+    font-size: 25px;  
+    color: black; 
+    text-decoration: none;  
+    font-weight: 600;  
+    } 
+    .navbar a { 
+    font-size: 18px; 
+    color: black;  
+    text-decoration: none;  
+    font-weight: 500; 
+    margin: 0 20px; 
+    transition: 0.3s; 
+    } 
+    .navbar a:hover { 
+    color: blue; 
+    } 
+    .social-media { 
+    display: flex;  
+    justify-content: space-between;  
+   margin-left: 20px;
+    }
+    
+    .social-media img{ 
+    justify-content: space-between;
+    margin-left: 20px;
+
+    }
+
+   #home{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(Rectangle\ 2.png);
+    background-size: cover;
+    margin-top: 80px;
+    padding-top: 120px;
+   
+    padding-right: 160px;
+    letter-spacing: 0px;
+   }
+#home p{
+    font-size: 100px;
+    font-weight: 800;
+}
+   #home  .well{
+    padding-right:200px ;
+   }
+
+   #home img{
+    margin-top: 80px;
+   }
+
+   #home a{
+    background-color: rgba(178, 190, 181, 0.527);
+    text-decoration: none;
+    padding: 18px 35px;
+    color: black;
+    margin-right: 740px;
+    border-radius: 70px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 200px;
+   }
+   #me{
+    margin-top: 150px;
+   }
+
+#me .no{
+    display: flex;
+}
+
+#me .no h1{
+    width: 950px;
+    font-size: 55px;
+    padding-left: 50px;
+}
+#me .no p{
+    width: 1110px;
+    font-size: 25px;
+    padding-right: 50px;
+    letter-spacing: 2px;
+    font-weight: 540;
+}
+
+#yea .so{
+    display: flex;
+}
+
+#yea .ma{
+    margin-left: 50px;
+   
+}
+
+#yea .ho{
+    width: 590px;
+    height: 650;
+    border-radius: 20px;
+    margin-left: 50px;
+}
+
+#yea .ao{
+    width: 590;
+    height: 306;
+}
+
+#yea .zo {
+    margin-left: 50px;
+}
+#yea{
+    margin-top: 200px;
+}
+
+#aso{
+    margin-top: 100px;
+}
+
+#aso img{
+    background-size: cover;
+    width: 100%;
+}
+
+#ojo{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 18vh;
+    background-image: url(UI-2\ 1.png);
+    background-size: cover;
+    margin-top: 80px;
+    padding-top: 28px;
+   
+    padding-right: 160px;
+    letter-spacing: 0px;
+   }
+#ojo p{
+    font-size: 100px;
+    font-weight: 800;
+}
+   #ojo  .well{
+    padding-right:200px ;
+   }
+
+   #ojo img{
+    margin-top: 80px;
+   }
+
+   #ojo a{
+    background-color: white;
+    text-decoration: none;
+    padding: 12px 75px;
+    color: black;
+    margin-left: 190px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 40px;
+   
+   }
+   #tom{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+
+
+
+#oj{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+    height: 18vh;
+    background-image: url(UI-2\ 1.png);
+    background-size: cover;
+    margin-top: 150px;
+    padding-top: 28px;
+   
+    padding-right: 160px;
+    letter-spacing: 0px;
+   }
+#oj p{
+    font-size: 100px;
+    font-weight: 800;
+}
+   #oj  .well{
+    padding-right:200px ;
+   }
+
+   #oj img{
+    margin-top: 80px;
+   }
+
+   #oj a{
+    background-color: white;
+    text-decoration: none;
+    padding: 12px 75px;
+    color: black;
+    margin-left: 190px;
+    border-radius: 10px;
+    font-weight: 800;
+    font-size: 40px;
+   
+   }
+   #oba{
+    margin-top: 100px;
+   }
+   #oba .olo{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+   }
+
+   #oba .mad{
+    display: flex;
+    margin-left: 60px;
+    margin-right: 60px;
+    justify-content: space-between;
+    margin-top: 45px;
+   }
+
+   #lio{
+    margin-top: 200px;
+    
+   }
+
+   #lio img{
+    width: 100%;
+    background-size: cover;
+   }
+
+   #use{
+    margin-top: 250px;
+    margin-bottom: 200px;
+   }
+
+#use .omu{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 200px;
+    justify-content: space-between;
+    color: rgba(0, 140, 255, 0.479);
+}
+
+#use .omu h2{
+    font-size: 30px;
+    font-weight: 800;
+}
+#use .omu h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+   
+
+#use .conten{
+    display: flex;
+    
+   
+}
+
+#use .conten .aye{
+    width: 250px;
+    margin-left: 150px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 100px;
+
+}
+
+#use .conten .xo{
+    width: 116px;
+    margin-right: 150px;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+#use .conten .eo{
+    width: 113px;
+    line-height: 40px;
+margin-right: 180px;
+font-size: 16px;
+    font-weight: 600;
+
+}
+
+#use .conten .mk{
+    width: 118px;
+    line-height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+ 
